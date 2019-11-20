@@ -14,22 +14,17 @@
  * limitations under the License.
  */
 
-package org.springframework.samples.petclinic;
+package org.springframework.samples.petclinic.system;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.samples.petclinic.vet.VetRepository;
 
-@SpringBootTest
-class PetclinicIntegrationTests {
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 
-    @Autowired
-    private VetRepository vets;
+@Controller
+class IndexController {
 
-    @Test
-    void testFindAll() throws Exception {
-        //vets.findAll();
-        //vets.findAll(); // served from cache
+    @GetMapping("/index")
+    public String index() {
+        return "index";
     }
 }

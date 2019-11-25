@@ -11,19 +11,19 @@
     <thead>
       <tr>
         <th>Name</th>
-		<th>Profile Picture</th>
+    <th>Profile Picture</th>
         <th>Specialties</th>
-		<th>About</th>
+    <th>About</th>
       </tr>
     </thead>
     <tbody>
       <tr th:each="vet : ${vets.vetList}">
         <td th:text="${vet.firstName + ' ' + vet.lastName}"></td>
-		<td><img src="../static/resources/images/team-member.gif" th:src="@{/resources/images/team-member.gif}"/></td>
+        <td><img src="../static/resources/images/team-member.gif" th:src="@{/resources/images/team-member.gif}"/></td>
         <td><span th:each="specialty : ${vet.specialties}"
           th:text="${specialty.name + ' '}" /> <span
           th:if="${vet.nrOfSpecialties == 0}">none</span></td>
-		<td>In odio. Mauris feugiat. Nunc posuere, felis sit amet faucibus convallis, tortor enim viverra quam, hendrerit interdum dui quam ut lacus. Vivamus accumsan. Donec molestie pede vel urna curabitur eget sem ornare felis</td>
+        <td th:text="${vet.about"}></td>
       </tr>
     </tbody>
   </table>

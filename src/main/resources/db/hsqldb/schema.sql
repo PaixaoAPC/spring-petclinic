@@ -10,8 +10,10 @@ DROP TABLE owners IF EXISTS;
 CREATE TABLE vets (
   id         INTEGER IDENTITY PRIMARY KEY,
   first_name VARCHAR(30),
-  last_name  VARCHAR(30)
+  last_name  VARCHAR(30),
+  about      VARCHAR(220)
 );
+
 CREATE INDEX vets_last_name ON vets (last_name);
 
 CREATE TABLE specialties (

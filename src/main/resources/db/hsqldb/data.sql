@@ -1,9 +1,9 @@
-INSERT INTO vets VALUES (1, 'James', 'Carter');
-INSERT INTO vets VALUES (2, 'Helen', 'Leary');
-INSERT INTO vets VALUES (3, 'Linda', 'Douglas');
-INSERT INTO vets VALUES (4, 'Rafael', 'Ortega');
-INSERT INTO vets VALUES (5, 'Henry', 'Stevens');
-INSERT INTO vets VALUES (6, 'Sharon', 'Jenkins');
+INSERT INTO vets VALUES (1, 'James', 'Carter', 'In odio. Mauris feugiat. Nunc posuere, felis sit amet faucibus convallis, tortor enim viverra quam, hendrerit interdum dui quam ut lacus. Vivamus accumsan. Donec molestie pede vel urna curabitur eget sem ornare felis');
+INSERT INTO vets VALUES (2, 'Helen', 'Leary','In odio. Mauris feugiat. Nunc posuere, felis sit amet faucibus convallis, tortor enim viverra quam, hendrerit interdum dui quam ut lacus. Vivamus accumsan. Donec molestie pede vel urna curabitur eget sem ornare felis');
+INSERT INTO vets VALUES (3, 'Linda', 'Douglas','In odio. Mauris feugiat. Nunc posuere, felis sit amet faucibus convallis, tortor enim viverra quam, hendrerit interdum dui quam ut lacus. Vivamus accumsan. Donec molestie pede vel urna curabitur eget sem ornare felis');
+INSERT INTO vets VALUES (4, 'Rafael', 'Ortega','In odio. Mauris feugiat. Nunc posuere, felis sit amet faucibus convallis, tortor enim viverra quam, hendrerit interdum dui quam ut lacus. Vivamus accumsan. Donec molestie pede vel urna curabitur eget sem ornare felis');
+INSERT INTO vets VALUES (5, 'Henry', 'Stevens','In odio. Mauris feugiat. Nunc posuere, felis sit amet faucibus convallis, tortor enim viverra quam, hendrerit interdum dui quam ut lacus. Vivamus accumsan. Donec molestie pede vel urna curabitur eget sem ornare felis');
+INSERT INTO vets VALUES (6, 'Sharon', 'Jenkins','In odio. Mauris feugiat. Nunc posuere, felis sit amet faucibus convallis, tortor enim viverra quam, hendrerit interdum dui quam ut lacus. Vivamus accumsan. Donec molestie pede vel urna curabitur eget sem ornare felis');
 
 INSERT INTO specialties VALUES (1, 'radiology');
 INSERT INTO specialties VALUES (2, 'surgery');

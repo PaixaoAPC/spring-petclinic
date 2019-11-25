@@ -54,7 +54,7 @@ public class Vet extends Person {
     private Set<Specialty> specialties;
 
     // ADC //
-	@Column(name = "about")
+    @Column(name = "about")
     private String about;
     ////////
 
@@ -85,4 +85,10 @@ public class Vet extends Person {
         getSpecialtiesInternal().add(specialty);
     }
 
+    public String getAbout(){
+return about;
+    }
+    public void setAbout(String a){
+	about = a;
+}
 }
